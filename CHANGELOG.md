@@ -6,8 +6,16 @@
 
 ## master
 
+## 4.2.1 (2025-02-01)
+
+- [PR #200](https://github.com/DmitryTsepelev/store_model/pull/200) Don't use #to_h on store model instances in OnePolymorphic types ([@23tux])
+
+## 4.2.0 (2024-12-08)
+
 - [PR #192](https://github.com/DmitryTsepelev/store_model/pull/192) Add convenience methods to instantiate model from type ([@bengladwell])
-  
+- [PR #194](https://github.com/DmitryTsepelev/store_model/pull/194) Fix accepts_nested_attributes_for triggering db connection in rails 7.2 ([@balbesina])
+- [PR #196](https://github.com/DmitryTsepelev/store_model/pull/196) Fix for AR association accepts_nested_attributes_for and a raise_if proc ([@evaniainbrooks])
+
 ## 4.1.0 (2024-10-05)
 
 - [PR #186](https://github.com/DmitryTsepelev/store_model/pull/186) Allow using floats as enum values ([@zabil-maooz])
@@ -251,3 +259,6 @@
 [@ql]: https://github.com/ql
 [@zabil-maooz]: https://github.com/zabil-maooz
 [@bengladwell]: https://github.com/bengladwell
+[@balbesina]: https://github.com/balbesina
+[@evaniainbrooks]: https://github.com/evaniainbrooks
+[@23tux]: https://github.com/23tux
